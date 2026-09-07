@@ -1,5 +1,3 @@
-content = """# E-Commerce Sales Analysis & Business Insights
-
 A comprehensive data analysis project using Python to evaluate e-commerce transactional data, uncover underlying purchasing patterns, calculate key business metrics, and provide actionable operational recommendations.
 
 ---
