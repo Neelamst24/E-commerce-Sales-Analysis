@@ -1,4 +1,4 @@
-A comprehensive data analysis project using Python to evaluate e-commerce transactional data, uncover underlying purchasing patterns, calculate key business metrics, and provide actionable operational recommendations.
+A comprehensive data analysis project using Python to evaluate e-commerce transactional data, uncover underlying purchasing patterns, calculate key business metrics, and provide actionable operational recommendations done in Post Graduation(MSc. Data Science).
 
 ---
 
@@ -28,15 +28,34 @@ In the rapidly evolving e-commerce sector, understanding customer purchasing beh
 
 ```text
 ├── data/
-│   ├── raw_sales_data.csv          # Raw transaction logs
-│   └── cleaned_sales_data.csv      # Processed data ready for analysis
-├── notebooks/
-│   └── ecommerce_sales_analysis.ipynb # Main exploratory and detailed analysis notebook
+│   └── e-commerce_sales_analysis.ipynb # Main exploratory and detailed analysis notebook
 ├── visualisations/
-│   ├── monthly_revenue_trend.png    # Trend lines for revenue growth
-│   ├── top_products_chart.png       # Visual representation of best sellers
-│   └── customer_segmentation.png    # Sales distribution across customer segments
-
+│   ├── e_commerce_Sales_Report.pdf   # contain the analysis report of data
+│   ├── e_commerce_Sales_Report.ppt   # presentation for better understanding
 ├── README.md                        # Project documentation
 └── requirements.txt                 # Python dependencies
-📊 Methodology & K
+## 📊 Methodology & Key Steps
+1. Data Cleaning & Preprocessing
+Handling Missing Values: Treated null customer IDs and missing product category tags.
+Type Casting: Converted timestamp strings to native datetime objects for accurate time-series operations.
+Outlier & Duplicate Removal: Cleaned duplicate transaction IDs and adjusted extreme edge cases in order quantities and prices.
+Feature Engineering: Extracted Year, Month, DayOfWeek, Hour, and computed Total Revenue = Quantity * Unit Price.
+
+2. Exploratory Data Analysis (EDA)
+Evaluated overall revenue trajectory across monthly and quarterly intervals.
+Computed performance indicators:
+Total Revenue
+Total Orders
+Unique Customers
+Average Order Value (AOV)
+Analyzed distribution of sales across different time windows to identify peak purchasing hours and days.
+
+3. Business Analysis & Insights
+Product Analysis: Ranked top 10 products by total revenue vs. total volume sold.
+Customer Segmentation: Analyzed revenue contribution from high-value repeat buyers vs. one-time purchasers.
+Category Trends: Identified core categories driving bulk profit margins versus entry-level loss leaders.
+
+## 📈 Summary of Key Results & Insights
+Revenue Growth: Sales exhibit significant seasonal spikes during holiday and promotional periods, with Q4 generating the highest monthly revenue share.
+Customer Retention: A core 20% of repeat customers contribute to over 50% of the total revenue, highlighting the importance of tailored loyalty initiatives.
+Product Concentration: Top-performing categories maintain steady demand, while low-volume inventory highlights opportunities for stocking optimization.  
