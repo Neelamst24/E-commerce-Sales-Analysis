@@ -44,7 +44,7 @@ In the rapidly evolving e-commerce sector, understanding customer purchasing beh
 - **Outlier & Duplicate Removal**: Cleaned duplicate transaction IDs and adjusted extreme edge cases in order quantities and prices.
 - **Feature Engineering**: Extracted Year, Month, DayOfWeek, Hour, and computed Total Revenue = Quantity * Unit Price.
 --
--2. **Exploratory Data Analysis (EDA)**
+**##-2. Exploratory Data Analysis (EDA)**
 - Evaluated overall revenue trajectory across monthly and quarterly intervals.
 - Computed performance indicators:
 - Total Revenue
@@ -53,10 +53,11 @@ In the rapidly evolving e-commerce sector, understanding customer purchasing beh
 - Average Order Value (AOV)
 - Analyzed distribution of sales across different time windows to identify peak purchasing hours and days.
 --
--3. **Business Analysis & Insights**
+**## 3.Business Analysis & Insights**
 - **Product Analysis**: Ranked top 10 products by total revenue vs. total volume sold.
 - **Customer Segmentation**: Analyzed revenue contribution from high-value repeat buyers vs. one-time purchasers.
 - **Category Trends**: Identified core categories driving bulk profit margins versus entry-level loss leaders.
+--
 ## 📈 **Summary of Key Results & Insights**
 **Revenue Growth**: Sales exhibit significant seasonal spikes during holiday and promotional periods, with Q4 generating the highest monthly revenue share.
 **Customer Retention**: A core 20% of repeat customers contribute to over 50% of the total revenue, highlighting the importance of tailored loyalty initiatives.
